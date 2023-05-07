@@ -80,7 +80,7 @@
   a:hover,
   a:active,
   a:focus {
-    color: #1c19bb;
+    color: #2755c1;
     outline: none;
   }
 
@@ -153,7 +153,7 @@
   }
 
   .entry-form .submit-btn:hover {
-    background: #1c19bb;
+    background: #2755c1;
     color: #ffffff;
   }
 
@@ -262,7 +262,7 @@
 
   .custom-navbar {
     background: #ffffff;
-    border-top: 5px solid #1c19bb;
+    border-top: 5px solid #2755c1;
     border-bottom: 0;
     -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -289,7 +289,7 @@
   }
 
   .custom-navbar .navbar-nav.navbar-right li a .fa {
-    background: #1c19bb;
+    background: #2755c1;
     border-radius: 100%;
     color: #ffffff;
     width: 30px;
@@ -313,12 +313,12 @@
   }
 
   .custom-navbar .nav li a:hover {
-    background-color: #1c19bb;
+    background-color: #2755c1;
     color: #ffffff;
   }
 
   .custom-navbar .nav li.active>a {
-    background-color: #1c19bb;
+    background-color: #2755c1;
     color: #ffffff;
   }
 
@@ -335,6 +335,37 @@
     background: #252525;
     border-color: transparent;
   }
+
+  .dropdown-menu li {
+    margin: 5px 0;
+  }
+
+  .dropdown-menu li a {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .dropdown-menu li a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+
+  .dropdown-menu {
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .dropdown-menu>li>a:focus,
+  .dropdown-menu>li>a:hover {
+    background-color: #eee;
+    color: #333;
+  }
+
 
 
 
@@ -408,14 +439,14 @@
   /*---------------------------------------
       FEATURE              
   -----------------------------------------*/
-
+  /* 
   .feature-thumb {
     border: 1.5px solid #f0f0f0;
     padding: 5em 3em;
   }
 
   .feature-thumb span {
-    background: #1c19bb;
+    background: #2755c1;
     border-radius: 50px;
     color: #ffffff;
     font-size: 25px;
@@ -430,7 +461,7 @@
 
   .feature-thumb h3 {
     margin: 10px 0;
-  }
+  } */
 
 
 
@@ -456,7 +487,7 @@
   }
 
   #about figure span i {
-    background: #1c19bb;
+    background: #2755c1;
     border-radius: 50px;
     color: #ffffff;
     font-size: 25px;
@@ -468,9 +499,7 @@
 
 
 
-  /*---------------------------------------
-      TEAM              
-  -----------------------------------------*/
+  /*---------------------------------------   Team/Teachers -----------------------------------------*/
 
   .team-thumb {
     background: #ffffff;
@@ -500,13 +529,11 @@
   }
 
   .team-info h3 {
-    margin: 0;
+    margin: 5;
   }
 
 
-  /*---------------------------------------
-      COURSES             
-  -----------------------------------------*/
+  /*---------------------------------------Events-----------------------------------------*/
 
   #courses .section-title {
     text-align: center;
@@ -594,7 +621,7 @@
   }
 
   .courses-price span {
-    background: #1c19bb;
+    background: #2755c1;
     border-radius: 2px;
     color: #ffffff;
     display: block;
@@ -602,7 +629,7 @@
   }
 
   .courses-price.free span {
-    background: #1c19bb;
+    background: #2755c1;
   }
 
 
@@ -610,7 +637,7 @@
   /*---------------------------------------
      NEWS              
   -----------------------------------------*/
-
+/* 
   .news-thumb {
     clear: both;
     position: relative;
@@ -632,13 +659,11 @@
   .news-date span {
     color: #909090;
     font-weight: bold;
-  }
+  } */
 
 
 
-  /*---------------------------------------
-      TESTIMONIAL             
-  -----------------------------------------*/
+  /*--------------------------------------Research/TESTIMONIAL-----------------------------------------*/
 
   #testimonial .item {
     background: #ffffff;
@@ -655,7 +680,7 @@
 
   #testimonial .item>p {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 30px;
   }
 
   .tst-rating {
@@ -663,7 +688,7 @@
   }
 
   .tst-rating .fa {
-    color: #1c19bb;
+    color: #2755c1;
   }
 
   .tst-image,
@@ -690,14 +715,61 @@
     font-size: 14px;
   }
 
+  .research-btn {
+    background-color: #2755c1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Publication------------ */
+  #testimonial1 .item {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 4em 3em;
+    text-align: left;
+  }
+
+  #courses .col-md-4,
+  #testimonial1 .col-md-4 {
+    display: block;
+    width: 100%;
+  }
+
+  #testimonial1.item>p {
+    font-size: 16px;
+    line-height: 30px;
+  }
 
 
-  /*---------------------------------------
-      CONTACT             
-  -----------------------------------------*/
+  /* --------(Project-------------------------------) */
+
+  #testimonial2 .item {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 4em 3em;
+    text-align: left;
+  }
+
+  #courses .col-md-4,
+  #testimonial2 .col-md-4 {
+    display: block;
+    width: 100%;
+  }
+
+  #testimonial2.item>p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+
+
+  /*--------------------------------------- CONTACT -----------------------------------------*/
 
   #contact {
-    background: #1c19bb;
+    background: #2755c1;
   }
 
   #contact h2 {
@@ -748,9 +820,7 @@
 
 
 
-  /*---------------------------------------
-     FOOTER              
-  -----------------------------------------*/
+  /*--------------------------------------- FOOTER ----------------------------------------*/
 
   footer {
     background: #252020;
@@ -828,7 +898,7 @@
   }
 
   .newsletter-form input[type="submit"]:hover {
-    background: #1c19bb;
+    background: #2755c1;
     border-color: transparent;
   }
 
@@ -872,7 +942,7 @@
   }
 
   .social-icon li a:hover {
-    background: #29ca8e;
+    background: white;
     color: #ffffff;
   }
 
