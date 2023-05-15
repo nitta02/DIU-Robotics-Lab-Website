@@ -422,53 +422,23 @@
   }
 
   .home-slider .item-first {
-    background-image: url(../images/contactback.png);
+    background-image: url(../images/bg_image1.jpg);
     background-position: center;
   }
 
   .home-slider .item-second {
-    background-image: url(../images/roboticscom1.png);
+    background-image: url(../images/bg_image2.jpg);
   }
 
   .home-slider .item-third {
-    background-image: url(../images/eventimg1.png);
+    background-image: url(../images/bg_image3.jpg);
   }
-
-
-
-  /*---------------------------------------
-      FEATURE              
-  -----------------------------------------*/
-  /* 
-  .feature-thumb {
-    border: 1.5px solid #f0f0f0;
-    padding: 5em 3em;
-  }
-
-  .feature-thumb span {
-    background: #2755c1;
-    border-radius: 50px;
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: bold;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    margin-bottom: 5px;
-  }
-
-  .feature-thumb h3 {
-    margin: 10px 0;
-  } */
-
 
 
   /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
-
+/* 
   #about figure {
     width: fit-content;
     padding: 2em 1em;
@@ -496,7 +466,7 @@
     line-height: 50px;
     text-align: center;
   }
-
+ */
 
 
   /*---------------------------------------   Team/Teachers -----------------------------------------*/
@@ -632,37 +602,6 @@
     background: #2755c1;
   }
 
-
-
-  /*---------------------------------------
-     NEWS              
-  -----------------------------------------*/
-/* 
-  .news-thumb {
-    clear: both;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
-
-  .news-thumb .news-image {
-    float: left;
-    width: 40%;
-    margin-right: 30px;
-  }
-
-  .news-info h3 {
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-
-  .news-date span {
-    color: #909090;
-    font-weight: bold;
-  } */
-
-
-
   /*--------------------------------------Research/TESTIMONIAL-----------------------------------------*/
 
   #testimonial .item {
@@ -724,7 +663,7 @@
     cursor: pointer;
   }
 
-  /* Publication------------ */
+  /*-------------------------------------- Publication------------ */
   #testimonial1 .item {
     background: #ffffff;
     margin: 20px 0;

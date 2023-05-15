@@ -2,232 +2,118 @@
 <html lang="en">
 
 <head>
-
-    <title>DIU ROBOTICS LAB </title>
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Professor's Name | University Name</title>
+    <style>
+        /* add styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        header {
+            background-color: #0072c6;
+            color: #ffffff;
+            padding: 20px;
+        }
 
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="research_design.css">
+        h1 {
+            margin: 0;
+        }
 
+        nav {
+            background-color: #f2f2f2;
+            border-bottom: 1px solid #dddddd;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            color: #666666;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #dddddd;
+            color: #333333;
+        }
+
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .profile-card {
+            background-color: #f2f2f2;
+            border: 1px solid #dddddd;
+            margin: 20px;
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+        }
+
+        .profile-card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .profile-card h2 {
+            margin: 10px 0;
+        }
+
+        .profile-card p {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 
-<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-
-    <!-- PRE LOADER -->
-    <section class="preloader">
-        <div class="spinner">
-
-            <span class="spinner-rotate"></span>
-
+<body>
+    <header>
+        <h1>Professor's Name</h1>
+        <p>Department of ________</p>
+    </header>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Research</a>
+        <a href="#">Teaching</a>
+        <a href="#">Publications</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <div class="profile-card">
+            <img src="professor.jpg" alt="Professor's Photo">
+            <h2>Professor's Name</h2>
+            <p>Department of ________</p>
+            <p>University Name</p>
+            <p>Email: professor@university.edu</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div class="profile-card">
+            <h2>About</h2>
+            <p>Add a brief description about the professor here.</p>
+        </div>
+        <div class="profile-card">
+            <h2>Research</h2>
+            <p>Add information about the professor's research interests and projects here.</p>
+        </div>
+        <div class="profile-card">
+            <h2>Teaching</h2>
+            <p>Add information about the professor's teaching interests and courses here.</p>
+        </div>
+        <div class="profile-card">
+            <h2>Publications</h2>
+            <p>Add a list of the professor's publications here.</p>
         </div>
     </section>
-
-
-    <!-- MENU -->
-    <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-        <div class="container">
-
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                </button>
-
-                <!-- lOGO TEXT HERE -->
-                <a href="#" class="navbar-brand">DIU ROBOTICS LAB</a>
-            </div>
-
-            <!-- MENU LINKS -->
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-nav-first">
-                    <li><a href="index.html" class="smoothScroll">HOME</a></li>
-                    <li><a href="#papers">RESEARCH</a></li>
-                    <li><a href="#footer" class="smoothScroll">MORE</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-phone"></i> +880153489496</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-    <!----------------------------------- RESEARCH PAPERS ------------------------------>
-    <section id="papers">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="section-title">
-                        <h2>Research Papers <small>Published by DIU Robotics Lab</small></h2>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12">
-                    <div class="paper-item">
-                        <h3><a href="#">Paper Title Goes Here</a></h3>
-                        <p>Authors: Author 1, Author 2, Author 3</p>
-                        <p>Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                            blandit orci vel odio bibendum, a auctor lorem tincidunt. Donec vehicula ac
-                            odio sit amet rhoncus.</p>
-                        <div class="btn-wrapper">
-                            <a href="#" class="btn">Download</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- RESEARCH PAPERS -->
-                <section id="papers">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-6 col-sm-6">
-                                <div class="research-paper">
-                                    <a href="#">
-                                        <img src="images/paper1.jpg" class="img-responsive" alt="">
-                                    </a>
-                                    <div class="research-paper-info">
-                                        <h3><a href="#">Robotics in Healthcare</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                            pharetra massa id
-                                            lectus tristique, vel ultricies neque facilisis. Etiam vitae
-                                            commodo mi, nec
-                                            ultricies ipsum.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-6">
-                                <div class="research-paper">
-                                    <a href="#">
-                                        <img src="images/paper2.jpg" class="img-responsive" alt="">
-                                    </a>
-                                    <div class="research-paper-info">
-                                        <h3><a href="#">Machine Learning for Robotics</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                            pharetra massa id
-                                            lectus tristique, vel ultricies neque facilisis. Etiam vitae
-                                            commodo mi, nec
-                                            ultricies ipsum.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-6">
-                                <div class="research-paper">
-                                    <a href="#">
-                                        <img src="images/paper3.jpg" class="img-responsive" alt="">
-                                    </a>
-                                    <div class="research-paper-info">
-                                        <h3><a href="#">Autonomous Navigation Systems</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                            pharetra massa id
-                                            lectus tristique, vel ultricies neque facilisis. Etiam vitae
-                                            commodo mi, nec
-                                            ultricies ipsum.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-6">
-                                <div class="research-paper">
-                                    <a href="#">
-                                        <img src="images/paper4.jpg" class="img-responsive" alt="">
-                                    </a>
-                                    <div class="research-paper-info">
-                                        <h3><a href="#">Soft Robotics and Human Interaction</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                            pharetra massa id
-                                            lectus tristique, vel ultricies neque facilisis. Etiam vitae
-                                            commodo mi, nec
-                                            ultricies ipsum.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <!-- ---------------------------------------------FOOTER -------------------------->
-                <footer id="footer">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="footer-info">
-                                    <div class="section-title">
-                                        <h2>AB4 Building</h2>
-                                    </div>
-                                    <address>
-                                        <p>Daffodil Smart Campus<br> Ashulia,Savar</p>
-                                    </address>
-
-                                    <ul class="social-icon">
-                                        <H2>Facebook Link</H2>
-                                        <li><a href="https://www.facebook.com/dbotlab/" class="fa fa-facebook-square"
-                                                attr="facebook icon"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="footer-info">
-                                    <div class="section-title">
-                                        <h2>Phone Number</h2>
-                                    </div>
-                                    <address>
-                                        <p>+88015634846</p>
-                                    </address>
-
-                                    <div class="section-title">
-                                        <h2>E-Mail</h2>
-                                    </div>
-                                    <address>
-                                        <p><a href="mailto:youremail.co">diu@edu.edu.bd</a></p>
-                                    </address>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="footer-info">
-                                    <div class="section-title">
-                                        <h2>Terms & Conditions</h2>
-                                        <ul></ul>
-                                    </div>
-                                    <address>
-                                        <p><a href="">Terms & Conditions</a> </p>
-                                    </address>
-
-                                    <div class="footer_menu">
-                                        <h2>Quick Links</h2>
-                                        <ul>
-                                            <li><a href="developers.html">Developers</a></li><br>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </footer>
-
-
-
-                <!-- SCRIPTS -->
-                <script src="js/jquery.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <script src="js/owl.carousel.min.js"></script>
-                <script src="js/smoothscroll.js"></script>
-                <script src="js/custom.js"></script>
-
 </body>
 
 </html>
